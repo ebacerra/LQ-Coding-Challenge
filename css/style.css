@@ -1,0 +1,553 @@
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.bg_image {
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.bg-img1 {
+  background-image: url(/Assets/Background\ Image.png);
+  background-position: 22.3% 100%;
+  /* background-attachment: fixed; */
+}
+.bg-img2 {
+  background-image: url(/Assets/Background\ Image.png);
+  background-position: 38%;
+  /* background-attachment: fixed; */
+}
+.bg-img3 {
+  background-image: url(/Assets/Background\ Image.png);
+  background-position: 59%;
+  /* background-attachment: fixed; */
+}
+/* where the logo is -- start */
+.container1 {
+  display: flex;
+  position: relative;
+}
+.button-container img {
+  margin-top: 68px;
+  margin-left: 305px;
+  z-index: 9999;
+}
+.logo-container img {
+  margin-left: 50px;
+  margin-top: -15px;
+  /* float: left; */
+  z-index: 9999;
+}
+a {
+  text-decoration: none !important;
+  color: black !important;
+}
+/* where the logo is -- end */
+
+/* character mid-section --start */
+.container3 {
+  padding: 50px 100px;
+  position: absolute;
+  top: 710px;
+  z-index: 1;
+  width: 1400px;
+  margin-left: 30px;
+}
+.container2 img {
+  position: relative;
+  top: 510px;
+  margin-left: 70px;
+  z-index: 1;
+}
+.container6 img {
+  position: relative;
+  padding-top: 50px;
+  margin-left: 70px;
+  z-index: 1;
+}
+#gameplay {
+  margin-top: -340px;
+  position: relative;
+  z-index: 1;
+  width: 700px;
+  margin-left: 130px;
+}
+#appstore img {
+  margin-left: 130px;
+}
+#googleplay img {
+  margin-left: 10px;
+}
+#screen1 img {
+  margin-top: 100px;
+}
+#screen2 img {
+  margin-top: 100px;
+  margin-left: -10px;
+}
+#screen3 img {
+  margin-top: 100px;
+  margin-left: -10px;
+}
+/* character mid-section --end */
+
+/* Atticus section --start */
+.container4 {
+  position: relative;
+  margin-left: 200px;
+  z-index: 3;
+}
+.atticus-center img {
+  width: 80%;
+  margin-top: -650px;
+  margin-left: 60px;
+  /* visibility: hidden; */
+}
+.barrin-center img {
+  width: 90%;
+  margin-top: -650px;
+  margin-left: 60px;
+  z-index: 3;
+  visibility: hidden;
+}
+.margrace-center img {
+  width: 90%;
+  margin-top: -650px;
+  margin-left: 60px;
+  z-index: 3;
+  visibility: hidden;
+}
+.character-shadow img {
+  width: 50%;
+  margin-top: -585px;
+  margin-left: 130px;
+}
+.character-stand img {
+  width: 100%;
+  margin-top: 480px;
+  margin-left: 20px;
+}
+.slider-button-L img {
+  margin-top: -410px;
+  margin-left: -170px;
+  width: 20%;
+}
+.slider-button-R img {
+  margin-top: -460px;
+  margin-left: 1120px;
+  width: 20%;
+}
+/* Atticus section -- end */
+
+/* Characters Descriptions -- start */
+#atticus-hide {
+  margin-top: 300px;
+  width: 600px;
+  min-height: 200px;
+  /* visibility: hidden; */
+}
+#barrin-hide {
+  margin-top: -565px;
+  width: 600px;
+  margin-left: 421px;
+  visibility: hidden;
+}
+#margrace-hide {
+  margin-top: -565px;
+  width: 600px;
+  margin-left: 421px;
+  visibility: hidden;
+}
+
+/* Characters Descriptions -- start */
+
+/* characters bg-gray */
+#charbg1 img {
+  margin-left: 600px;
+  margin-top: -250px;
+  width: 10%;
+}
+#hide-select1 img {
+  margin-left: 579px;
+  margin-top: -300px;
+  width: 13%;
+  display: none;
+}
+#charbg2 img {
+  margin-left: 710px;
+  margin-top: -300px;
+  width: 10%;
+}
+#hide-select2 img {
+  margin-left: 688px;
+  margin-top: -394px;
+  width: 13%;
+  display: none;
+}
+#charbg3 img {
+  margin-left: 820px;
+  margin-top: -350px;
+  width: 10%;
+}
+#hide-select3 img {
+  margin-left: 798px;
+  margin-top: -490px;
+  width: 13%;
+  display: none;
+}
+#charbg4 img {
+  margin-left: 930px;
+  margin-top: -398px;
+  width: 10%;
+}
+#hide-select4 img {
+  margin-left: 908px;
+  margin-top: -590px;
+  width: 13%;
+  display: none;
+}
+#charbg5 img {
+  margin-left: 1040px;
+  margin-top: -450px;
+  width: 10%;
+}
+#hide-select5 img {
+  margin-left: 1018px;
+  margin-top: -690px;
+  width: 13%;
+  display: none;
+}
+#charbg6 img {
+  margin-left: 1150px;
+  margin-top: -500px;
+  width: 10%;
+}
+#hide-select6 img {
+  margin-left: 1129px;
+  margin-top: -780px;
+  width: 13%;
+  display: none;
+}
+/* hover effect - START *********/
+#charbg1 img:hover + .atticus-center img {
+  visibility: visible;
+}
+#charbg1 img:hover + #atticus-hide {
+  visibility: visible;
+}
+#charbg2 img:hover + #margrace-hide {
+  visibility: visible;
+}
+#charbg2 img:hover + .margrace-center img {
+  visibility: visible;
+}
+/* hover effect - END ***********/
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 48px;
+  font-weight: 900 !important;
+  z-index: 5;
+}
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 42px;
+  z-index: 5;
+}
+#text2 {
+  position: relative;
+  margin-top: -58px;
+  margin-left: 420px;
+  width: 182px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+}
+p #text4 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  z-index: 5;
+}
+h2 #text3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+}
+
+/* Media Query ---------------------------- */
+
+@media only screen and (max-width: 1024px) {
+  .button-container img {
+    margin-left: 146px;
+    margin-top: 65px;
+  }
+  .logo-container img {
+    margin-left: 29px;
+    margin-top: -34px;
+  }
+  #text2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 22px;
+    margin-top: -48px;
+    margin-left: 217px;
+    width: 235px;
+  }
+
+  .container3 {
+    padding: 50px 100px;
+    position: absolute;
+    top: 430px;
+    z-index: 5;
+    width: 1050px;
+    margin-left: 0px;
+  }
+  .container2 img {
+    position: absolute;
+    top: 450px;
+    margin-left: 50px;
+    width: 90%;
+  }
+  p #text4 {
+    font-size: 10px;
+  }
+}
+@media only screen and (max-width: 980px) {
+  .button-container img {
+    margin-left: 137px;
+    margin-top: 65px;
+    width: 100%;
+  }
+  .logo-container img {
+    width: 50%;
+    margin-left: 29px;
+    margin-top: -34px;
+  }
+  #text2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    margin-top: -53px;
+    margin-left: 179px;
+  }
+  .container3 {
+    padding: 50px 100px;
+    position: absolute;
+    top: 430px;
+    z-index: 5;
+    /* display: flex; */
+    width: 1000px;
+    margin-left: 0px;
+  }
+  .container2 img {
+    position: absolute;
+    top: 450px;
+    margin-left: 50px;
+    width: 90%;
+  }
+  p #text4 {
+    font-size: 10px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .button-container img {
+    margin-left: 52px;
+    margin-top: 62px;
+    width: 90%;
+  }
+  .logo-container img {
+    width: 50%;
+    margin-left: 10px;
+  }
+  #text2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    margin-top: -40px;
+    margin-left: 98px;
+  }
+  .container3 {
+    padding: 50px 100px;
+    position: absolute;
+    top: 412px;
+    z-index: 5;
+    /* display: flex; */
+    width: 900px;
+    margin-left: -50px;
+  }
+  .container2 img {
+    position: absolute;
+    top: 450px;
+    width: 120%;
+    margin-left: -15px;
+  }
+  p #text4 {
+    font-size: 10px;
+  }
+  .container4 {
+    position: relative;
+    margin-left: 10px;
+    z-index: 3;
+  }
+  .atticus-center img {
+    width: 80%;
+    margin-top: -490px;
+    /* margin-left: 70px; */
+    z-index: 3;
+  }
+  .character-shadow img {
+    width: 80%;
+    margin-top: -370px;
+    margin-left: 90px;
+  }
+  .character-stand img {
+    width: 135%;
+    margin-top: 320px;
+    margin-left: 20px;
+  }
+  .slider-button img {
+    margin-top: -410px;
+    margin-left: -50px;
+    width: 30%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .button-container img {
+    margin-top: -160px;
+    margin-left: 246px;
+    width: 30%;
+  }
+  .logo-container img {
+    width: 30%;
+    margin-left: 10px;
+    margin-top: -5px;
+  }
+  #text2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    margin-top: -101px;
+    margin-left: 297px;
+    /* width: 182px; */
+  }
+
+  .container3 {
+    padding: 50px 100px;
+    position: absolute;
+    top: 390px;
+    z-index: 5;
+    width: 605px;
+  }
+  .container2 img {
+    position: absolute;
+    top: 400px;
+    margin-left: -100px;
+    width: 250%;
+    height: 95%;
+  }
+  p #text4 {
+    font-size: 10px;
+  }
+  .container4 {
+    position: relative;
+    /* margin-left: 50px; */
+    z-index: 3;
+  }
+  .atticus-center img {
+    width: 40%;
+    margin-top: -402px;
+    margin-left: 115px;
+  }
+  .character-shadow img {
+    width: 30%;
+    margin-top: -450px;
+    margin-left: 152px;
+  }
+  .character-stand img {
+    width: 50%;
+    margin-top: 400px;
+    margin-left: 100px;
+  }
+  .slider-button img {
+    margin-top: -400px;
+    margin-left: -15px;
+    width: 15%;
+  }
+  #atticus-hide {
+    margin-top: -80px;
+    margin-left: 20px;
+    padding-top: 20px;
+    width: 380px;
+  }
+  #barrin-hide {
+    margin-top: -565px;
+    width: 600px;
+    margin-left: 421px;
+    display: none;
+  }
+  #margrace-hide {
+    margin-top: -565px;
+    width: 600px;
+    margin-left: 421px;
+    display: none;
+  }
+
+  #charbg1 img {
+    margin-top: -650px;
+    margin-left: 0;
+    width: 25%;
+  }
+  #charbg2 img {
+    margin-top: -700px;
+    margin-left: 97px;
+    width: 25%;
+  }
+  #charbg3 img {
+    margin-top: -752px;
+    margin-left: 193px;
+    width: 25%;
+  }
+  #charbg4 img {
+    margin-top: -800px;
+    margin-left: 290px;
+    width: 25%;
+  }
+  .container6 img {
+    position: relative;
+    padding-top: 100px;
+    margin-left: -200px;
+    z-index: 1;
+  }
+  #gameplay {
+    margin-top: -340px;
+    position: relative;
+    z-index: 1;
+    width: 700px;
+    margin-left: 130px;
+  }
+  #appstore img {
+    width: 30%;
+    margin-left: 130px;
+  }
+  #googleplay img {
+    width: 30%;
+    margin-left: 10px;
+  }
+  #screen1 img {
+    width: 25%;
+  }
+  #screen2 img {
+    width: 25%;
+    margin-left: -10px;
+  }
+  #screen3 img {
+    width: 25%;
+    margin-left: -10px;
+  }
+}
