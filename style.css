@@ -19,17 +19,17 @@ body {
   background-repeat: no-repeat;
 }
 .bg-img1 {
-  background-image: url(/Assets/Background\ Image.png);
+  background-image: url(Assets/Background\ Image.png);
   background-position: 22.3% 100%;
   /* background-attachment: fixed; */
 }
 .bg-img2 {
-  background-image: url(/Assets/Background\ Image.png);
+  background-image: url(Assets/Background\ Image.png);
   background-position: 38%;
   /* background-attachment: fixed; */
 }
 .bg-img3 {
-  background-image: url(/Assets/Background\ Image.png);
+  background-image: url(Assets/Background\ Image.png);
   background-position: 59%;
   /* background-attachment: fixed; */
 }
